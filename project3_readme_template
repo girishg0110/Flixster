@@ -1,18 +1,18 @@
-# Android Project 3 - *Name of App Here*
+# Android Project 3 - *Flixster*
 
-Submitted by: **Your Name Here**
+Submitted by: **Girish Ganesan**
 
-**Name of your app** is a movie browsing app that allows users to browse movies currently playing in theaters.
+**Flixster** is a movie browsing app that allows users to browse movies currently playing in theaters.
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **Make a request to [The Movie Database API's `now_playing`](https://developers.themoviedb.org/3/movies/get-now-playing) endpoint to get a list of current movies**
-- [ ] **Parse through JSON data and implement a RecyclerView to display all movies**
-- [ ] **Use Glide to load and display movie poster images**
+- [Y] **Make a request to [The Movie Database API's `now_playing`](https://developers.themoviedb.org/3/movies/get-now-playing) endpoint to get a list of current movies**
+- [Y] **Parse through JSON data and implement a RecyclerView to display all movies**
+- [Y] **Use Glide to load and display movie poster images**
 
 The following **optional** features are implemented:
 
@@ -30,10 +30,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/RqsH5cA.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with ScreenToGif
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -43,9 +43,11 @@ GIF created with ...
 
 Describe any challenges encountered while building the app.
 
+Using the template given in lab, I was able to easily adapt the NY Times Bestselling Books app to this new use case. One issue I ran into was that the API requests were not going through correctly and were resulting in errors. I changed the appropriate field names and the problem was resolved.
+
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2022] [Girish Ganesan]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
